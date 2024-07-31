@@ -7,11 +7,11 @@ using namespace std;
 
 class Vehicle {
 private:
-	string manufacturer;
-	int year;
+    string manufacturer;
+    int year;
 
 public:
-	Vehicle(string manufacturer, int year);
+    Vehicle(string manufacturer, int year);
 
     // Getters
     string getManufacturer() const;
@@ -23,7 +23,7 @@ public:
 
     // Method to display info
     virtual void displayInfo() const;
-}
+};
 
 
 #endif 
